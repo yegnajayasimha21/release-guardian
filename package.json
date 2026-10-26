@@ -1,0 +1,23 @@
+{
+  "name": "release-guardian",
+  "version": "0.2.0",
+  "description": "Governed failure-diagnosis and remediation tools for Copado Agentia Headless (CLI + MCP)",
+  "type": "module",
+  "bin": {
+    "rg": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "mcp": "node dist/server.js",
+    "rg": "node dist/cli.js",
+    "test": "npm run build && node test/readiness.test.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  }
+}

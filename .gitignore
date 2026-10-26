@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.guardian/
+.guardian-patch.diff
+
+.env
+.env.*
+.guardian-*/
+.cursor/
+.mcp.json

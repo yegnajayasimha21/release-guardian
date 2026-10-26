@@ -1,0 +1,4 @@
+=== Test Failures [2]
+AccountServiceTest.testRegionAssignment  Fail  System.AssertException: Assertion Failed: Expected: EMEA, Actual: null
+AccountServiceTest.testBulkInsert  Fail  System.DmlException: Insert failed. FIELD_CUSTOM_VALIDATION_EXCEPTION, Region required for Enterprise accounts: []
+Test run failed.

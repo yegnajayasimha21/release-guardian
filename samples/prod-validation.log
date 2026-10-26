@@ -1,0 +1,2 @@
+=== Test Failures [1]
+OpportunityTriggerTest.testClose  Fail  System.DmlException: FIELD_CUSTOM_VALIDATION_EXCEPTION, Amount required
